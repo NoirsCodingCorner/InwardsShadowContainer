@@ -1,7 +1,7 @@
-name: inwardshadowcontainer
+name: inwardsshadowcontainer
 description: "Allows to add shadows to any side of a Widget"
-version: 1.0.0
-homepage: https://github.com/NoirsCodingCorner/
+version: 1.0.1
+homepage: https://github.com/NoirsCodingCorner/InwardsShadowContainer
 environment:
   sdk: ^3.0.0
   flutter: ">=1.17.0"

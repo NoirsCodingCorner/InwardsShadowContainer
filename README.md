@@ -11,12 +11,10 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
 
 ## Features
 
-This small widget is able to supply shadows to the widget passed into it alignment directions.
+This widget is able to supply shadows to the widget passed into it alignment directions.
 ## Getting started
 
 Simply include, copy or use the shadowcontainer.dart into your project and call it via SideShadow to add shadow to your widget.

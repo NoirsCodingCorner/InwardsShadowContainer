@@ -1,3 +1,3 @@
-## 1.0.0
+## 1.0.1
 
-* Simple inwards shadow widget
+* Quick fix of the package description
