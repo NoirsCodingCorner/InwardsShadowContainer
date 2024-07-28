@@ -26,7 +26,7 @@ class SideShadow extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomPaint(
-      painter: SideShadowPainter(
+      foregroundPainter: SideShadowPainter(
         shadowColor: shadowColor,
         beginalignment: beginalignment,
         endalignment: endalignment,
