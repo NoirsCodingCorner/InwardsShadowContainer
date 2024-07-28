@@ -13,8 +13,8 @@ class TestApp extends StatelessWidget {
         body: Center(
           child: SideShadow(
             shadowColor: Colors.red,
-            beginalignment: Alignment.topCenter,
-            endalignment: Alignment.bottomCenter,
+            beginAlignment: Alignment.topCenter,
+            endAlignment: Alignment.bottomCenter,
             child: Container(
               color: Colors.red,
             ),

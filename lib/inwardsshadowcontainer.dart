@@ -6,8 +6,8 @@ import 'package:flutter/widgets.dart';
 /// Widget that adds a side shadow to its child.
 class SideShadow extends StatelessWidget {
   final Color shadowColor;
-  final Alignment beginalignment;
-  final Alignment endalignment;
+  final Alignment beginAlignment;
+  final Alignment endAlignment;
   final double maxIntensity;
   final double indent;
   final Widget child;
@@ -16,8 +16,8 @@ class SideShadow extends StatelessWidget {
   const SideShadow({
     super.key,
     required this.shadowColor, // Color of the shadow
-    required this.beginalignment, // Alignment where the shadow starts
-    required this.endalignment, // Alignment where the shadow ends
+    required this.beginAlignment, // Alignment where the shadow starts
+    required this.endAlignment, // Alignment where the shadow ends
     required this.child, // Child widget to apply shadow to
     this.maxIntensity = 0.3, // Maximum intensity of the shadow
     this.indent = 0.1, // Indentation of the shadow
@@ -28,8 +28,8 @@ class SideShadow extends StatelessWidget {
     return CustomPaint(
       foregroundPainter: SideShadowPainter(
         shadowColor: shadowColor,
-        beginalignment: beginalignment,
-        endalignment: endalignment,
+        beginalignment: beginAlignment,
+        endalignment: endAlignment,
         maxIntensity: maxIntensity,
         indent: indent,
       ),
